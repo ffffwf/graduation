@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A29A754B8779F0844122718 /* libPods-GraduationDesign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A973408DB8F2B63026B2FE /* libPods-GraduationDesign.a */; };
+		5E11D3EF23E73D2F005EDF87 /* WFLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E11D3EE23E73D2F005EDF87 /* WFLiveViewController.m */; };
+		5E11D3F223E73E37005EDF87 /* WFLiveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E11D3F123E73E37005EDF87 /* WFLiveCollectionViewCell.m */; };
+		5E6EA6F223F53B04009C69EF /* WFWaterFallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EA6F123F53B04009C69EF /* WFWaterFallCollectionViewLayout.m */; };
 		5E988A5B23BDCCE900EECE9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988A5A23BDCCE900EECE9E /* AppDelegate.m */; };
 		5E988A6623BDCCEC00EECE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E988A6523BDCCEC00EECE9E /* Assets.xcassets */; };
 		5E988A6923BDCCEC00EECE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E988A6723BDCCEC00EECE9E /* LaunchScreen.storyboard */; };
 		5E988A6C23BDCCEC00EECE9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988A6B23BDCCEC00EECE9E /* main.m */; };
 		5E988A7623BDCCED00EECE9E /* GraduationDesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988A7523BDCCED00EECE9E /* GraduationDesignTests.m */; };
 		5E988A8123BDCCEE00EECE9E /* GraduationDesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988A8023BDCCEE00EECE9E /* GraduationDesignUITests.m */; };
-		5EB13FDB23BDDADE000A9A01 /* WFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB13FDA23BDDADE000A9A01 /* WFRootViewController.m */; };
+		5EC4EF7923E0E21C000E4314 /* WFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF7823E0E21B000E4314 /* WFUserModel.m */; };
+		5EC4EF7F23E31B58000E4314 /* WFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF7E23E31B58000E4314 /* WFTabBarController.m */; };
+		5EC4EF8223E31E9F000E4314 /* WFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF8023E31E9F000E4314 /* WFHomeViewController.m */; };
+		5EC4EF8523E32A2E000E4314 /* WFShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF8423E32A2E000E4314 /* WFShopViewController.m */; };
+		5EC4EF8823E32A7F000E4314 /* WFMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF8723E32A7F000E4314 /* WFMessageViewController.m */; };
+		5EC4EF8B23E32A8B000E4314 /* WFMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF8A23E32A8B000E4314 /* WFMyViewController.m */; };
+		5EC4EF8E23E34D1B000E4314 /* WFTitleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF8D23E34D1B000E4314 /* WFTitleCollectionViewController.m */; };
+		5EC4EF9123E34D3D000E4314 /* WFContentCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF9023E34D3D000E4314 /* WFContentCollectionViewController.m */; };
+		5EC4EF9523E359B0000E4314 /* WFTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF9423E359AF000E4314 /* WFTitleCollectionViewCell.m */; };
+		5EC4EF9823E359BF000E4314 /* WFContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4EF9723E359BF000E4314 /* WFContentCollectionViewCell.m */; };
+		5EF27B9423F4597D00E59F63 /* WFDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF27B9323F4597D00E59F63 /* WFDiscoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A6B0045E6AFBCD47DF1073 /* Pods-GraduationDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.debug.xcconfig"; path = "Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		24A973408DB8F2B63026B2FE /* libPods-GraduationDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraduationDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E11D3ED23E73D2F005EDF87 /* WFLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFLiveViewController.h; sourceTree = "<group>"; };
+		5E11D3EE23E73D2F005EDF87 /* WFLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLiveViewController.m; sourceTree = "<group>"; };
+		5E11D3F023E73E37005EDF87 /* WFLiveCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFLiveCollectionViewCell.h; sourceTree = "<group>"; };
+		5E11D3F123E73E37005EDF87 /* WFLiveCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLiveCollectionViewCell.m; sourceTree = "<group>"; };
+		5E6EA6F023F53B04009C69EF /* WFWaterFallCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFWaterFallCollectionViewLayout.h; sourceTree = "<group>"; };
+		5E6EA6F123F53B04009C69EF /* WFWaterFallCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFWaterFallCollectionViewLayout.m; sourceTree = "<group>"; };
 		5E988A5623BDCCE900EECE9E /* GraduationDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduationDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E988A5923BDCCE900EECE9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E988A5A23BDCCE900EECE9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,8 +69,30 @@
 		5E988A7C23BDCCEE00EECE9E /* GraduationDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraduationDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E988A8023BDCCEE00EECE9E /* GraduationDesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraduationDesignUITests.m; sourceTree = "<group>"; };
 		5E988A8223BDCCEE00EECE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EB13FD923BDDADE000A9A01 /* WFRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFRootViewController.h; sourceTree = "<group>"; };
-		5EB13FDA23BDDADE000A9A01 /* WFRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFRootViewController.m; sourceTree = "<group>"; };
+		5EC4EF7723E0E21B000E4314 /* WFUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFUserModel.h; sourceTree = "<group>"; };
+		5EC4EF7823E0E21B000E4314 /* WFUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFUserModel.m; sourceTree = "<group>"; };
+		5EC4EF7D23E31B58000E4314 /* WFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFTabBarController.h; sourceTree = "<group>"; };
+		5EC4EF7E23E31B58000E4314 /* WFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFTabBarController.m; sourceTree = "<group>"; };
+		5EC4EF8023E31E9F000E4314 /* WFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeViewController.m; sourceTree = "<group>"; };
+		5EC4EF8123E31E9F000E4314 /* WFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeViewController.h; sourceTree = "<group>"; };
+		5EC4EF8323E32A2E000E4314 /* WFShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFShopViewController.h; sourceTree = "<group>"; };
+		5EC4EF8423E32A2E000E4314 /* WFShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFShopViewController.m; sourceTree = "<group>"; };
+		5EC4EF8623E32A7F000E4314 /* WFMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMessageViewController.h; sourceTree = "<group>"; };
+		5EC4EF8723E32A7F000E4314 /* WFMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMessageViewController.m; sourceTree = "<group>"; };
+		5EC4EF8923E32A8B000E4314 /* WFMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMyViewController.h; sourceTree = "<group>"; };
+		5EC4EF8A23E32A8B000E4314 /* WFMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMyViewController.m; sourceTree = "<group>"; };
+		5EC4EF8C23E34D1B000E4314 /* WFTitleCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFTitleCollectionViewController.h; sourceTree = "<group>"; };
+		5EC4EF8D23E34D1B000E4314 /* WFTitleCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFTitleCollectionViewController.m; sourceTree = "<group>"; };
+		5EC4EF8F23E34D3D000E4314 /* WFContentCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFContentCollectionViewController.h; sourceTree = "<group>"; };
+		5EC4EF9023E34D3D000E4314 /* WFContentCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFContentCollectionViewController.m; sourceTree = "<group>"; };
+		5EC4EF9223E3544B000E4314 /* WFExternVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFExternVar.h; sourceTree = "<group>"; };
+		5EC4EF9323E359AF000E4314 /* WFTitleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		5EC4EF9423E359AF000E4314 /* WFTitleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		5EC4EF9623E359BF000E4314 /* WFContentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFContentCollectionViewCell.h; sourceTree = "<group>"; };
+		5EC4EF9723E359BF000E4314 /* WFContentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFContentCollectionViewCell.m; sourceTree = "<group>"; };
+		5EF27B9223F4597D00E59F63 /* WFDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFDiscoverViewController.h; sourceTree = "<group>"; };
+		5EF27B9323F4597D00E59F63 /* WFDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFDiscoverViewController.m; sourceTree = "<group>"; };
+		AB9A79D524147DF388913206 /* Pods-GraduationDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.release.xcconfig"; path = "Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A29A754B8779F0844122718 /* libPods-GraduationDesign.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +121,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0455047E8DF494FAB28BBCE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A6B0045E6AFBCD47DF1073 /* Pods-GraduationDesign.debug.xcconfig */,
+				AB9A79D524147DF388913206 /* Pods-GraduationDesign.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		36DB47364033E42ED7DC017B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A973408DB8F2B63026B2FE /* libPods-GraduationDesign.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E6EA45023F539DB009C69EF /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF8123E31E9F000E4314 /* WFHomeViewController.h */,
+				5EC4EF8023E31E9F000E4314 /* WFHomeViewController.m */,
+				5EC4EF8C23E34D1B000E4314 /* WFTitleCollectionViewController.h */,
+				5EC4EF8D23E34D1B000E4314 /* WFTitleCollectionViewController.m */,
+				5EC4EF8F23E34D3D000E4314 /* WFContentCollectionViewController.h */,
+				5EC4EF9023E34D3D000E4314 /* WFContentCollectionViewController.m */,
+				5E11D3ED23E73D2F005EDF87 /* WFLiveViewController.h */,
+				5E11D3EE23E73D2F005EDF87 /* WFLiveViewController.m */,
+				5EF27B9223F4597D00E59F63 /* WFDiscoverViewController.h */,
+				5EF27B9323F4597D00E59F63 /* WFDiscoverViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		5E6EA45123F539F6009C69EF /* WaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EA6F023F53B04009C69EF /* WFWaterFallCollectionViewLayout.h */,
+				5E6EA6F123F53B04009C69EF /* WFWaterFallCollectionViewLayout.m */,
+			);
+			path = WaterFallLayout;
+			sourceTree = "<group>";
+		};
 		5E988A4D23BDCCE800EECE9E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +171,8 @@
 				5E988A7423BDCCED00EECE9E /* GraduationDesignTests */,
 				5E988A7F23BDCCEE00EECE9E /* GraduationDesignUITests */,
 				5E988A5723BDCCE900EECE9E /* Products */,
+				0455047E8DF494FAB28BBCE6 /* Pods */,
+				36DB47364033E42ED7DC017B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,14 +189,16 @@
 		5E988A5823BDCCE900EECE9E /* GraduationDesign */ = {
 			isa = PBXGroup;
 			children = (
+				5EC4EF7C23E218FC000E4314 /* manager */,
+				5EC4EF7B23E218F0000E4314 /* view */,
+				5EC4EF7A23E218DF000E4314 /* viewController */,
+				5EC4EF7623E0E1DC000E4314 /* model */,
 				5E988A5923BDCCE900EECE9E /* AppDelegate.h */,
 				5E988A5A23BDCCE900EECE9E /* AppDelegate.m */,
 				5E988A6523BDCCEC00EECE9E /* Assets.xcassets */,
 				5E988A6723BDCCEC00EECE9E /* LaunchScreen.storyboard */,
 				5E988A6A23BDCCEC00EECE9E /* Info.plist */,
 				5E988A6B23BDCCEC00EECE9E /* main.m */,
-				5EB13FD923BDDADE000A9A01 /* WFRootViewController.h */,
-				5EB13FDA23BDDADE000A9A01 /* WFRootViewController.m */,
 			);
 			path = GraduationDesign;
 			sourceTree = "<group>";
@@ -129,6 +221,93 @@
 			path = GraduationDesignUITests;
 			sourceTree = "<group>";
 		};
+		5EC4EF7623E0E1DC000E4314 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF7723E0E21B000E4314 /* WFUserModel.h */,
+				5EC4EF7823E0E21B000E4314 /* WFUserModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5EC4EF7A23E218DF000E4314 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF7D23E31B58000E4314 /* WFTabBarController.h */,
+				5EC4EF7E23E31B58000E4314 /* WFTabBarController.m */,
+				5EF27B9123F4591300E59F63 /* Util */,
+				5EF27B9023F458DE00E59F63 /* My */,
+				5EF27B8F23F458D500E59F63 /* Message */,
+				5EF27B8E23F458C400E59F63 /* Shop */,
+				5EF27B8D23F458AE00E59F63 /* Home */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		5EC4EF7B23E218F0000E4314 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF9323E359AF000E4314 /* WFTitleCollectionViewCell.h */,
+				5EC4EF9423E359AF000E4314 /* WFTitleCollectionViewCell.m */,
+				5EC4EF9623E359BF000E4314 /* WFContentCollectionViewCell.h */,
+				5EC4EF9723E359BF000E4314 /* WFContentCollectionViewCell.m */,
+				5E11D3F023E73E37005EDF87 /* WFLiveCollectionViewCell.h */,
+				5E11D3F123E73E37005EDF87 /* WFLiveCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5EC4EF7C23E218FC000E4314 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		5EF27B8D23F458AE00E59F63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5E6EA45123F539F6009C69EF /* WaterFallLayout */,
+				5E6EA45023F539DB009C69EF /* viewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5EF27B8E23F458C400E59F63 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF8323E32A2E000E4314 /* WFShopViewController.h */,
+				5EC4EF8423E32A2E000E4314 /* WFShopViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		5EF27B8F23F458D500E59F63 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF8623E32A7F000E4314 /* WFMessageViewController.h */,
+				5EC4EF8723E32A7F000E4314 /* WFMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5EF27B9023F458DE00E59F63 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF8923E32A8B000E4314 /* WFMyViewController.h */,
+				5EC4EF8A23E32A8B000E4314 /* WFMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		5EF27B9123F4591300E59F63 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5EC4EF9223E3544B000E4314 /* WFExternVar.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E988A8523BDCCEE00EECE9E /* Build configuration list for PBXNativeTarget "GraduationDesign" */;
 			buildPhases = (
+				F36769B34D6F36D61DDA0C26 /* [CP] Check Pods Manifest.lock */,
 				5E988A5223BDCCE900EECE9E /* Sources */,
 				5E988A5323BDCCE900EECE9E /* Frameworks */,
 				5E988A5423BDCCE900EECE9E /* Resources */,
+				7EDC7188DDBBC74FEDF3EF96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,14 +434,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EDC7188DDBBC74FEDF3EF96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36769B34D6F36D61DDA0C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraduationDesign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E988A5223BDCCE900EECE9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6EA6F223F53B04009C69EF /* WFWaterFallCollectionViewLayout.m in Sources */,
+				5EF27B9423F4597D00E59F63 /* WFDiscoverViewController.m in Sources */,
 				5E988A5B23BDCCE900EECE9E /* AppDelegate.m in Sources */,
-				5EB13FDB23BDDADE000A9A01 /* WFRootViewController.m in Sources */,
+				5EC4EF8E23E34D1B000E4314 /* WFTitleCollectionViewController.m in Sources */,
+				5EC4EF9523E359B0000E4314 /* WFTitleCollectionViewCell.m in Sources */,
+				5EC4EF8B23E32A8B000E4314 /* WFMyViewController.m in Sources */,
+				5EC4EF9123E34D3D000E4314 /* WFContentCollectionViewController.m in Sources */,
+				5EC4EF7923E0E21C000E4314 /* WFUserModel.m in Sources */,
+				5EC4EF8823E32A7F000E4314 /* WFMessageViewController.m in Sources */,
+				5EC4EF9823E359BF000E4314 /* WFContentCollectionViewCell.m in Sources */,
+				5EC4EF8223E31E9F000E4314 /* WFHomeViewController.m in Sources */,
+				5E11D3F223E73E37005EDF87 /* WFLiveCollectionViewCell.m in Sources */,
+				5EC4EF7F23E31B58000E4314 /* WFTabBarController.m in Sources */,
 				5E988A6C23BDCCEC00EECE9E /* main.m in Sources */,
+				5EC4EF8523E32A2E000E4314 /* WFShopViewController.m in Sources */,
+				5E11D3EF23E73D2F005EDF87 /* WFLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +655,7 @@
 		};
 		5E988A8623BDCCEE00EECE9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A6B0045E6AFBCD47DF1073 /* Pods-GraduationDesign.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +673,7 @@
 		};
 		5E988A8723BDCCEE00EECE9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9A79D524147DF388913206 /* Pods-GraduationDesign.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

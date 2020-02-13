@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WFRootViewController.h"
+#import "WFTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    WFRootViewController *rootViewController = [[WFRootViewController alloc] init];
-    self.window.rootViewController = rootViewController;
+    WFTabBarController *tabBarController = [[WFTabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }

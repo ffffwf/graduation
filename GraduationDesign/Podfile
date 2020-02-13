@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'GraduationDesign' do
+    pod 'Masonry'
+    pod 'Mantle'
+    pod 'YYText'
+    pod 'MJRefresh'
+    pod 'AFNetworking'
+end
