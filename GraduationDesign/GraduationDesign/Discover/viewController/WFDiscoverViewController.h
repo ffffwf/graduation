@@ -1,8 +1,8 @@
 //
-//  WFMessageViewController.h
+//  WFDiscoverViewController.h
 //  GraduationDesign
 //
-//  Created by wufeng on 2020/1/30.
+//  Created by wufeng on 2020/2/13.
 //  Copyright © 2020 wufeng. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WFMessageViewController : UIViewController
+@interface WFDiscoverViewController : UIViewController
 
 @end
 

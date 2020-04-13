@@ -19,6 +19,11 @@ PODS:
   - Mantle/extobjc (2.1.0)
   - Masonry (1.1.0)
   - MJRefresh (3.3.1)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
   - YYText (1.0.7)
 
 DEPENDENCIES:
@@ -26,6 +31,7 @@ DEPENDENCIES:
   - Mantle
   - Masonry
   - MJRefresh
+  - SDCycleScrollView
   - YYText
 
 SPEC REPOS:
@@ -34,6 +40,8 @@ SPEC REPOS:
     - Mantle
     - Masonry
     - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
     - YYText
 
 SPEC CHECKSUMS:
@@ -41,8 +49,10 @@ SPEC CHECKSUMS:
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: dd74b617e64033570db44cae3214282871356f5d
+PODFILE CHECKSUM: 3d564039334c7ccf1680c45bbdd7ac62acde3743
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1

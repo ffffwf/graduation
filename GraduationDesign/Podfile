@@ -6,4 +6,5 @@ target 'GraduationDesign' do
     pod 'YYText'
     pod 'MJRefresh'
     pod 'AFNetworking'
+    pod 'SDCycleScrollView'
 end
