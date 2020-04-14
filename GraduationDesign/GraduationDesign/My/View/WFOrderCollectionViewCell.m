@@ -36,7 +36,7 @@
     [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.contentView);
         make.bottom.equalTo(self.contentView).offset(-15);
-        make.size.equalTo(@(CGSizeMake(20, 20)));
+        make.size.equalTo(@(CGSizeMake(40, 40)));
     }];
     
     [self.contentView addSubview:self.titleLabel];
@@ -44,6 +44,29 @@
         make.centerX.equalTo(self.contentView);
         make.bottom.equalTo(self.contentView).offset(-2);
     }];
+}
+
+- (void)configWithOrderType:(WFOrderType)orderType
+{
+    switch (orderType) {
+        case WFOrderTypeWaitToPay:
+            self.titleLabel.text = @"待支付";
+            break;
+        case WFOrderTypeWaitToReceive:
+            self.titleLabel.text = @"待收货";
+            break;
+        case WFOrderTypeWaitToRemark:
+            self.titleLabel.text = @"待评价";
+            break;
+        case WFOrderTypeFinished:
+            self.titleLabel.text = @"已完成";
+            break;
+        case WFOrderTypeCanceled:
+            self.titleLabel.text = @"已取消";
+            break;
+        default:
+            break;
+    }
 }
 
 - (UIImageView *)iconImageView
@@ -63,7 +86,7 @@
         _titleLabel = [[UILabel alloc] init];
         _titleLabel.text = @"订单";
         _titleLabel.textColor = [UIColor blackColor];
-        _titleLabel.font = [UIFont systemFontOfSize:6];
+        _titleLabel.font = [UIFont systemFontOfSize:12];
     }
     return _titleLabel;
 }

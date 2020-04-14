@@ -10,6 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, WFOrderType)
+{
+    WFOrderTypeWaitToPay,
+    WFOrderTypeWaitToReceive,
+    WFOrderTypeWaitToRemark,
+    WFOrderTypeFinished,
+    WFOrderTypeCanceled,
+};
+
 @interface WFMyViewController : UIViewController
 
 @end

@@ -8,16 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "WFHomePageResponseModel.h"
+#import "WFDataController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^Completion)(WFHomePageResponseModel *responseModel);
-
-@interface WFHomePageDataController : NSObject
+@interface WFHomePageDataController : WFDataController
 
 @property (nonatomic, strong) WFHomePageResponseModel *model;
-
-- (void)fetchData:(Completion)completion;
 
 @end
 

@@ -7,13 +7,6 @@
 //
 
 #import "WFHomePageDataController.h"
-#import "AFNetworking.h"
-
-@interface WFHomePageDataController ()
-
-@property (nonatomic, strong) AFHTTPSessionManager *manager;
-
-@end
 
 @implementation WFHomePageDataController
 
@@ -23,18 +16,10 @@
     
     } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject) {
         self.model = [MTLJSONAdapter modelOfClass:[WFHomePageResponseModel class] fromJSONDictionary:responseObject error:nil];
-        completion(self.model);
+        completion();
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"%@", error);
     }];
-}
-
-- (AFHTTPSessionManager *)manager
-{
-    if (!_manager) {
-        _manager = [AFHTTPSessionManager manager];
-    }
-    return _manager;
 }
 
 @end

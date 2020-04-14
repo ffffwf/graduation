@@ -15,6 +15,7 @@
 #import "WFShopCategorySectionController.h"
 #import "WFHotSearchSectionController.h"
 #import "WFHomePageDataController.h"
+#import <Toast/UIView+Toast.h>
 
 typedef NS_ENUM(NSUInteger, WFShopSectionType)
 {
@@ -46,11 +47,12 @@ static NSString * const kCommonCellIdentifier = @"WFShopCommonTableViewCell";
     [super viewDidLoad];
     [self p_configUI];
     [self p_fetchData];
+    [self.view makeToast:@"启动" duration:2 position:CSToastPositionCenter];
 }
 
 - (void)p_fetchData
 {
-    [self.homePageDataController fetchData:^(WFHomePageResponseModel *responseModel){
+    [self.homePageDataController fetchData:^{
         [self.tableview reloadData];
     }];
 }

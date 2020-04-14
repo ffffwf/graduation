@@ -24,6 +24,7 @@ PODS:
   - SDWebImage (5.6.1):
     - SDWebImage/Core (= 5.6.1)
   - SDWebImage/Core (5.6.1)
+  - Toast (4.0.0)
   - YYText (1.0.7)
 
 DEPENDENCIES:
@@ -32,6 +33,7 @@ DEPENDENCIES:
   - Masonry
   - MJRefresh
   - SDCycleScrollView
+  - Toast (~> 4.0.0)
   - YYText
 
 SPEC REPOS:
@@ -42,6 +44,7 @@ SPEC REPOS:
     - MJRefresh
     - SDCycleScrollView
     - SDWebImage
+    - Toast
     - YYText
 
 SPEC CHECKSUMS:
@@ -51,8 +54,9 @@ SPEC CHECKSUMS:
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
   SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 3d564039334c7ccf1680c45bbdd7ac62acde3743
+PODFILE CHECKSUM: 3851c0c476f84794f446b6f3a9add058f50f0579
 
 COCOAPODS: 1.9.1

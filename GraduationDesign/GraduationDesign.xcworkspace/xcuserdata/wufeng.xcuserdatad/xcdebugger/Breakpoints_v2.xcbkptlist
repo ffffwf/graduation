@@ -7,220 +7,28 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
-            uuid = "57D9AD21-8FF8-4117-B2ED-1CED687F1148"
+            uuid = "A94A8637-2DB2-4110-B73D-7C6A160F4F2C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             breakpointStackSelectionBehavior = "1"
-            scope = "1"
+            scope = "0"
             stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8C3ABE28-876D-42CB-B282-DB7300BEEC04"
+            uuid = "70656A30-0925-4FFD-9432-278640D14900"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
+            filePath = "GraduationDesign/ShoppingCart/ViewController/WFShoppingCartViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8C3ABE28-876D-42CB-B282-DB7300BEEC04 - 345aff4de91a6ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[WFHomePageDataController fetchData]_block_invoke"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  uuid = "8C3ABE28-876D-42CB-B282-DB7300BEEC04 - 90069fb902c6e8c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[WFHomePageDataController fetchData]_block_invoke_2"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "73">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9D9822AA-E380-4375-9E2F-5F1F2BCE0A97"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9D9822AA-E380-4375-9E2F-5F1F2BCE0A97 - 90069fb902c6e8c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[WFHomePageDataController fetchData]_block_invoke_2"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "73">
-               </Location>
-               <Location
-                  uuid = "9D9822AA-E380-4375-9E2F-5F1F2BCE0A97 - 90069fb90dc6e8c1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[WFHomePageDataController fetchData]_block_invoke_3"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "82">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "143A7C99-9C5E-4A09-9211-A135C4D6E031"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7CEAC6A6-0B06-4B6A-8AC2-540E4223D2DC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7CEAC6A6-0B06-4B6A-8AC2-540E4223D2DC - 881a9914ef14d21f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WFHomePageDataController fetchData]"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "17">
-               </Location>
-               <Location
-                  uuid = "7CEAC6A6-0B06-4B6A-8AC2-540E4223D2DC - 345aff4de91a6ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__37-[WFHomePageDataController fetchData]_block_invoke"
-                  moduleName = "GraduationDesign"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wufeng/graduation/GraduationDesign/GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3E1B01BE-08A9-473E-A338-565C3BAEEE3A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "44558B30-F8CB-41ED-A7A8-1ADAA3A48476"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Home/DataManager/WFHomePageDataController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-fetchData:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4982E7F1-3399-467B-9C73-97D12B58D333"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraduationDesign/Discover/WFHomeViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-p_fetchData"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-p_configUI"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

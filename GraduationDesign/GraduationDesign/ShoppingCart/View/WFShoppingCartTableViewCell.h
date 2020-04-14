@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WFClothesAndNumModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^CallBackBlock)(void);
+
 @interface WFShoppingCartTableViewCell : UITableViewCell
+
+@property (nonatomic, copy) CallBackBlock addButtonClickedBlock;
+@property (nonatomic, copy) CallBackBlock deleteButtonClickedBlock;
+@property (nonatomic, copy) CallBackBlock selectButtonClickedBlock;
+
+- (void)configWithModel:(WFClothesAndNumModel *)model;
 
 @end
 

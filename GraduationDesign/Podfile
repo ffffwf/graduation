@@ -7,4 +7,5 @@ target 'GraduationDesign' do
     pod 'MJRefresh'
     pod 'AFNetworking'
     pod 'SDCycleScrollView'
+    pod 'Toast', '~> 4.0.0'
 end

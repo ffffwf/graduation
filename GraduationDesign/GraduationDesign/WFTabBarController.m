@@ -11,6 +11,7 @@
 #import "WFShoppingCartViewController.h"
 #import "WFMyViewController.h"
 #import "WFDiscoverViewController.h"
+#import "WFExternVar.h"
 
 typedef NS_ENUM(NSUInteger, WFTabBarControllerTag)
 {

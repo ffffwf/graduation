@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WFMyViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WFOrderCollectionViewCell : UICollectionViewCell
+
+- (void)configWithOrderType:(WFOrderType)orderType;
 
 @end
 

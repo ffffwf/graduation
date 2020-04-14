@@ -19,6 +19,15 @@
 		5E1985B12444AE150047B76C /* WFRemarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985B02444AE150047B76C /* WFRemarkModel.m */; };
 		5E1985B42444AE400047B76C /* WFHomePageResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985B32444AE400047B76C /* WFHomePageResponseModel.m */; };
 		5E1985BA2444EA7E0047B76C /* WFShoppingCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985B92444EA7E0047B76C /* WFShoppingCartTableViewCell.m */; };
+		5E1985BD2445B0050047B76C /* WFShoppingCartResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985BC2445B0050047B76C /* WFShoppingCartResponseModel.m */; };
+		5E1985C12445B0550047B76C /* WFShoppingCartDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985C02445B0550047B76C /* WFShoppingCartDataController.m */; };
+		5E1985C72445BB310047B76C /* WFDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985C62445BB310047B76C /* WFDataController.m */; };
+		5E1985CA2445F3C40047B76C /* WFClothesAndNumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985C92445F3C40047B76C /* WFClothesAndNumModel.m */; };
+		5E1985CD244656680047B76C /* WFMyHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985CC244656680047B76C /* WFMyHeaderCollectionReusableView.m */; };
+		5E1985D024465FDB0047B76C /* WFSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985CF24465FDB0047B76C /* WFSettingViewController.m */; };
+		5E1985D3244662500047B76C /* WFSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985D2244662500047B76C /* WFSettingTableViewCell.m */; };
+		5E1985D6244666A30047B76C /* WFModifyPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985D5244666A30047B76C /* WFModifyPersonalInfoViewController.m */; };
+		5E1985D9244666C30047B76C /* WFChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1985D8244666C30047B76C /* WFChangePasswordViewController.m */; };
 		5E6EA6F223F53B04009C69EF /* WFWaterFallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6EA6F123F53B04009C69EF /* WFWaterFallCollectionViewLayout.m */; };
 		5E703955242E8C3800792F4D /* WFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E703954242E8C3800792F4D /* WFSearchViewController.m */; };
 		5E703958242E8C5500792F4D /* WFSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E703957242E8C5500792F4D /* WFSearchSuggestionViewController.m */; };
@@ -90,6 +99,24 @@
 		5E1985B32444AE400047B76C /* WFHomePageResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFHomePageResponseModel.m; sourceTree = "<group>"; };
 		5E1985B82444EA7E0047B76C /* WFShoppingCartTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFShoppingCartTableViewCell.h; sourceTree = "<group>"; };
 		5E1985B92444EA7E0047B76C /* WFShoppingCartTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFShoppingCartTableViewCell.m; sourceTree = "<group>"; };
+		5E1985BB2445B0050047B76C /* WFShoppingCartResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFShoppingCartResponseModel.h; sourceTree = "<group>"; };
+		5E1985BC2445B0050047B76C /* WFShoppingCartResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFShoppingCartResponseModel.m; sourceTree = "<group>"; };
+		5E1985BF2445B0550047B76C /* WFShoppingCartDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFShoppingCartDataController.h; sourceTree = "<group>"; };
+		5E1985C02445B0550047B76C /* WFShoppingCartDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFShoppingCartDataController.m; sourceTree = "<group>"; };
+		5E1985C52445BB310047B76C /* WFDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFDataController.h; sourceTree = "<group>"; };
+		5E1985C62445BB310047B76C /* WFDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFDataController.m; sourceTree = "<group>"; };
+		5E1985C82445F3C40047B76C /* WFClothesAndNumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFClothesAndNumModel.h; sourceTree = "<group>"; };
+		5E1985C92445F3C40047B76C /* WFClothesAndNumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFClothesAndNumModel.m; sourceTree = "<group>"; };
+		5E1985CB244656680047B76C /* WFMyHeaderCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFMyHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		5E1985CC244656680047B76C /* WFMyHeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFMyHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		5E1985CE24465FDB0047B76C /* WFSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSettingViewController.h; sourceTree = "<group>"; };
+		5E1985CF24465FDB0047B76C /* WFSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFSettingViewController.m; sourceTree = "<group>"; };
+		5E1985D1244662500047B76C /* WFSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSettingTableViewCell.h; sourceTree = "<group>"; };
+		5E1985D2244662500047B76C /* WFSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFSettingTableViewCell.m; sourceTree = "<group>"; };
+		5E1985D4244666A30047B76C /* WFModifyPersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFModifyPersonalInfoViewController.h; sourceTree = "<group>"; };
+		5E1985D5244666A30047B76C /* WFModifyPersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFModifyPersonalInfoViewController.m; sourceTree = "<group>"; };
+		5E1985D7244666C30047B76C /* WFChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFChangePasswordViewController.h; sourceTree = "<group>"; };
+		5E1985D8244666C30047B76C /* WFChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFChangePasswordViewController.m; sourceTree = "<group>"; };
 		5E6EA6F023F53B04009C69EF /* WFWaterFallCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFWaterFallCollectionViewLayout.h; sourceTree = "<group>"; };
 		5E6EA6F123F53B04009C69EF /* WFWaterFallCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFWaterFallCollectionViewLayout.m; sourceTree = "<group>"; };
 		5E703953242E8C3800792F4D /* WFSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFSearchViewController.h; sourceTree = "<group>"; };
@@ -225,6 +252,7 @@
 		5E19859D24448C820047B76C /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				5E1985BE2445B0240047B76C /* Model */,
 				5E1985B72444EA5C0047B76C /* DataController */,
 				5E1985B62444EA560047B76C /* View */,
 				5E1985B52444EA430047B76C /* ViewController */,
@@ -250,6 +278,8 @@
 			children = (
 				5E1985A62444A9110047B76C /* WFResponseModel.h */,
 				5E1985A72444A9110047B76C /* WFResponseModel.m */,
+				5E1985C52445BB310047B76C /* WFDataController.h */,
+				5E1985C62445BB310047B76C /* WFDataController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -275,8 +305,21 @@
 		5E1985B72444EA5C0047B76C /* DataController */ = {
 			isa = PBXGroup;
 			children = (
+				5E1985BF2445B0550047B76C /* WFShoppingCartDataController.h */,
+				5E1985C02445B0550047B76C /* WFShoppingCartDataController.m */,
 			);
 			path = DataController;
+			sourceTree = "<group>";
+		};
+		5E1985BE2445B0240047B76C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E1985BB2445B0050047B76C /* WFShoppingCartResponseModel.h */,
+				5E1985BC2445B0050047B76C /* WFShoppingCartResponseModel.m */,
+				5E1985C82445F3C40047B76C /* WFClothesAndNumModel.h */,
+				5E1985C92445F3C40047B76C /* WFClothesAndNumModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5E6EA45023F539DB009C69EF /* viewController */ = {
@@ -312,6 +355,12 @@
 				5EC4EF8A23E32A8B000E4314 /* WFMyViewController.m */,
 				5EAF42B5243D287600CB45CB /* WFOrderViewController.h */,
 				5EAF42B6243D287600CB45CB /* WFOrderViewController.m */,
+				5E1985CE24465FDB0047B76C /* WFSettingViewController.h */,
+				5E1985CF24465FDB0047B76C /* WFSettingViewController.m */,
+				5E1985D4244666A30047B76C /* WFModifyPersonalInfoViewController.h */,
+				5E1985D5244666A30047B76C /* WFModifyPersonalInfoViewController.m */,
+				5E1985D7244666C30047B76C /* WFChangePasswordViewController.h */,
+				5E1985D8244666C30047B76C /* WFChangePasswordViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -414,6 +463,10 @@
 			children = (
 				5EAF42B2243D1F8500CB45CB /* WFOrderCollectionViewCell.h */,
 				5EAF42B3243D1F8500CB45CB /* WFOrderCollectionViewCell.m */,
+				5E1985CB244656680047B76C /* WFMyHeaderCollectionReusableView.h */,
+				5E1985CC244656680047B76C /* WFMyHeaderCollectionReusableView.m */,
+				5E1985D1244662500047B76C /* WFSettingTableViewCell.h */,
+				5E1985D2244662500047B76C /* WFSettingTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -661,9 +714,11 @@
 			files = (
 				5E1985BA2444EA7E0047B76C /* WFShoppingCartTableViewCell.m in Sources */,
 				5E6EA6F223F53B04009C69EF /* WFWaterFallCollectionViewLayout.m in Sources */,
+				5E1985C12445B0550047B76C /* WFShoppingCartDataController.m in Sources */,
 				5ED48BDB240828E80099B105 /* WFGoodsTableViewCell.m in Sources */,
 				5EF27B9423F4597D00E59F63 /* WFDiscoverViewController.m in Sources */,
 				5ED48BD6240827DF0099B105 /* WFHotSearchSectionController.m in Sources */,
+				5E1985D024465FDB0047B76C /* WFSettingViewController.m in Sources */,
 				5E19859C2443CE000047B76C /* WFHomePageDataController.m in Sources */,
 				5E988A5B23BDCCE900EECE9E /* AppDelegate.m in Sources */,
 				5E1985992443BDE90047B76C /* WFShoppingCartViewController.m in Sources */,
@@ -678,16 +733,23 @@
 				5EC4EF9123E34D3D000E4314 /* WFContentCollectionViewController.m in Sources */,
 				5EC4EF7923E0E21C000E4314 /* WFUserModel.m in Sources */,
 				5ED48BD32408275A0099B105 /* WFShopCategorySectionController.m in Sources */,
+				5E1985D6244666A30047B76C /* WFModifyPersonalInfoViewController.m in Sources */,
 				5EAF42B4243D1F8500CB45CB /* WFOrderCollectionViewCell.m in Sources */,
 				5E1985B42444AE400047B76C /* WFHomePageResponseModel.m in Sources */,
 				5EC4EF9823E359BF000E4314 /* WFContentCollectionViewCell.m in Sources */,
 				5E703958242E8C5500792F4D /* WFSearchSuggestionViewController.m in Sources */,
 				5E703962242FE3D600792F4D /* WFShopCommonTableViewCell.m in Sources */,
+				5E1985D3244662500047B76C /* WFSettingTableViewCell.m in Sources */,
 				5E1985B12444AE150047B76C /* WFRemarkModel.m in Sources */,
 				5E70395F242EA8F700792F4D /* WFSearchHistoryTableViewCell.m in Sources */,
 				5E1985962443BC410047B76C /* WFVideoViewController.m in Sources */,
+				5E1985BD2445B0050047B76C /* WFShoppingCartResponseModel.m in Sources */,
 				5E1985AE2444ADE20047B76C /* WFClothesModel.m in Sources */,
 				5E82F518243BC760009B9D5E /* WFCategoryCollectionViewCell.m in Sources */,
+				5E1985D9244666C30047B76C /* WFChangePasswordViewController.m in Sources */,
+				5E1985C72445BB310047B76C /* WFDataController.m in Sources */,
+				5E1985CA2445F3C40047B76C /* WFClothesAndNumModel.m in Sources */,
+				5E1985CD244656680047B76C /* WFMyHeaderCollectionReusableView.m in Sources */,
 				5E11D3F223E73E37005EDF87 /* WFLiveCollectionViewCell.m in Sources */,
 				5EC4EF7F23E31B58000E4314 /* WFTabBarController.m in Sources */,
 				5E988A6C23BDCCEC00EECE9E /* main.m in Sources */,
